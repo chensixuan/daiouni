@@ -1,0 +1,56 @@
+/*-----------------------------------content--------------------------------*/
+#content{/*background: pink;*/}
+#content .w{height: auto;}
+#content .w .car{height: auto;background: #fef1ef;padding-left:42px;padding-right:42px;width:1094px;padding-top: 20px;padding-bottom: 17px;}
+#content .w .car .mycar{border: 1px solid #ccc;height:auto;background: #fff;}
+#content .w .car .mycar .mycartitle{height: 51px;border-top: 3px solid #ffc0c1;background: url(../img/carticon.jpg) no-repeat 30px center;line-height: 51px;text-indent: 30px;padding-left:30px;}
+#content .w .car .mycar .mycarbody{height: auto;border-top: 1px solid #ccc;width: 1054px;margin: 0 20px;overflow: hidden;}
+#content .w .car .mycar .mycarbody .thead{height: 49px;width: 1140px;}
+#content .w .car .mycar .mycarbody .thead div{text-align: center;float: left;height: 49px;line-height: 49px;}
+#content .w .car .mycar .mycarbody .shangpin{width: 130px;}
+#content .w .car .mycar .mycarbody .xinghao{width: 210px;}
+#content .w .car .mycar .mycarbody .chicun{width: 110px;}
+#content .w .car .mycar .mycarbody .kezineirong{width: 160px;}
+#content .w .car .mycar .mycarbody .shichangjiage{width: 110px;}
+#content .w .car .mycar .mycarbody .youhui{width: 110px;}
+#content .w .car .mycar .mycarbody .chengjiaojia{width: 110px;}
+#content .w .car .mycar .mycarbody .caozuo{width: 110px;}
+
+#content .w .car .mycar .mycarbody .tbody{height: auto;}
+
+#content .w .car .mycar .mycarbody .tfoot{height:40px;background: #f7f7f7;margin-top: 10px;width: 1054px;line-height: 40px;}
+#content .w .car .mycar .mycarbody .tfoot .zuo{width:530px;padding-left: 20px;}
+#content .w .car .mycar .mycarbody .tfoot .zhong{width:390px;height: 40px;line-height: 40px;}
+#content .w .car .mycar .mycarbody .tfoot .you{margin-top: 10px;}
+
+#content .w .hot{height: 290px;background: #fff;padding:20px 0;width: 1180px;}
+#content .w .hot .hottitle{height: 34px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;background: url(../img/hotbg.png);}
+#content .w .hot .hottitle .l{height:34px;line-height:34px;background: url(../img/lovebg.png) no-repeat 25px center;padding-left: 25px;text-indent: 22px;font-weight: bold;}
+#content .w .hot .hottitle .r{height:34px;line-height:34px;font-weight: bold;margin-right: 20px;}
+#content .w .hot .hotbody{height: 200px;border: 1px solid #ccc;margin-top: 10px;padding: 20px 10px;width: 1160px;}
+#content .w .hot .hotbody .lbtn{width: 29px;background: url(../img/hotleft.png) no-repeat center;cursor: pointer;height: 199px;}
+#content .w .hot .hotbody .rbtn{width: 29px;background: url(../img/hotright.png) no-repeat center;cursor: pointer;height: 199px;}
+			/*---------hot轮播图--------------*/
+#content .w .hot .hotbody .ul{width: 1092px;height:199px;overflow: hidden;}
+#content .w .hot .hotbody .ul ul{width: 3276px;height:199px;position: relative;left:-1092px;}
+#content .w .hot .hotbody .ul ul li{width: 182px;height: 199px;}
+/*-----------------------------------cityshop--------------------------------*/
+#cityshop{background: #fef1ef}
+#cityshop .w{height: 281px;}
+#cityshop .w .branch{height: 53px;border-bottom: 1px solid #8a8a8a;background: #fff;}
+#cityshop .w .branch .tiyanzhongxin{width:387px;height:25px;font-size: 18px;font-weight: bold;padding-top: 28px;padding-left: 15px;}
+#cityshop .w .branch .city{width: 778px;height: 23px;padding-top: 30px;}
+#cityshop .w .branch .city div{width:25px;height:23px;padding-left: 20px;padding-right: 20px;background:0;}
+
+#cityshop .w .address ul{width:1178px;height:226px;border-left: 1px solid #6b6b6b;border-right: 1px solid #6b6b6b;border-top: 1px solid #4c4c4c;position: relative;}
+#cityshop .w .address ul li{width: 1180px;height: 225px;position: absolute;}
+#cityshop .w .address ul li .map{width: 680px;height: 225px;border-top: 1px solid #838383;background: url(../img/map.png) no-repeat;}
+#cityshop .w .address ul li .map p{margin-bottom: 20px;text-align: center;}
+#cityshop .w .address ul li .map p.p1{font-size: 20px;font-weight: bold;margin: 40px 0;}
+#cityshop .w .address ul li .pic{width: 500px;height: 225px;border-top: 1px solid #838383;}
+
+
+/*------------------------------------service--------------------------------*/
+#service{height: 115px;}
+#service .w .top2{height:30px;background: url(../img/linebg.jpg) repeat-x;}
+#service .w .servicebottom{height: 85px;}

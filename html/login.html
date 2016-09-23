@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>会员登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/cookie.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/login.js"></script>
+	</head>
+	<body>
+		<div id="top">
+			<div class="w">
+				<div class="zuo l">
+					<span class="l">欢迎光临戴欧妮珠宝网！</span>
+					<span class="l">您好,&nbsp;</span>
+					<div class="dengluzhuce l">
+						<a href="login.html" class="denglu">登录</a>
+						<a class="zhuce" href="register.html">/注册</a> 
+					</div>
+					<div class="tiyan l">
+						体验中心：<a href="javascript:;">新疆•乌鲁木齐北京南路旗舰店</a> <a href="javascript:;">切换</a>
+					</div>
+				</div>
+				<div class="you r"><a class="mine" href="login.html">我的戴欧妮</a> <a href="shoppingcar.html">我的珠宝箱[<span style="color: #db3962;" class="jianshu">0</span>]</a> <a href="javascript:;" class="renzheng">正品认证</a> <a href="javascript:;" class="jindian">预约进店</a> <a class="phone" href="javascript:;">手机版</a> <a class="weixin" href="javascript:;">微信</a> <a class="weibo" href="javascript:;">微博</a></div>
+			</div>
+		</div>
+		<div id="header">
+			<div class="w">
+				<div class="logo l"><a href="../index.html"><img src="../img/logo.png"/></a></div>
+				<div class="center l">
+					<div class="search">
+						<input class="inp l" type="text" placeholder="请输入型号或者名称" />
+						<a class="l" href="list.html">搜 索</a>
+					</div>
+					<div class="yongheng">
+						<a href="list.html">永恒</a>
+						<a href="list.html">浪漫</a>
+						<a href="list.html">一生</a>
+						<a href="list.html">爱情</a>
+						<a href="list.html">蜜语</a>
+					</div>
+				</div>
+				<div class="code r"></div>
+			</div>
+		</div>
+		<div id="nav">
+			<div class="w" style="position: relative;">
+				<div class="category l">所有分类</div>
+				<div class="xiala" style="position: absolute;">
+					<ul>
+						<li class="zuanshi"style="background: #383333 ;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">钻石</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">30分</a>
+								<a class="l" href="javascript:;">50分</a>
+								<a class="l" href="javascript:;">80分</a>
+								<a class="l" href="javascript:;">1克拉</a>
+								<a class="l" href="javascript:;">异形钻</a>
+								<a class="l" href="javascript:;">钻石投资</a>
+							</div>
+						</li>
+						<li class="jiezhi" style="background: #312d2d;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">戒指</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">钻石女戒</a>
+								<a class="l" href="javascript:;">钻石男戒</a>
+								<a class="l" href="javascript:;">情侣对戒</a>
+								<a class="l" href="javascript:;">彩宝戒指</a>
+								<a class="l" href="javascript:;">珍珠戒指</a>
+							</div>
+						</li>
+						<li class="diaozhui" style="background: #383333;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">吊坠</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">钻石吊坠</a>
+								<a class="l" href="javascript:;">珍珠吊坠</a>
+								<a class="l" href="javascript:;">彩宝吊坠</a>
+							</div>
+						</li>
+						<li class="ershi" style="background: #312d2d;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">耳饰</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">钻石耳饰</a>
+								<a class="l" href="javascript:;">珍珠耳饰</a>
+								<a class="l" href="javascript:;">彩宝耳饰</a>
+							</div>
+						</li>
+						<li class="shoulian" style="background: #383333;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">手链</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">钻石手链</a>
+							</div>
+						</li>
+						<li class="huangjin" style="background: #312d2d;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">黄金</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">投资金条</a>
+								<a class="l" href="javascript:;">黄金饰品</a>
+							</div>
+						</li>
+						<li class="dingzhi" style="background: #383333;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">来图定制</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">戴欧妮加盟咨询</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+					
+				<ul class="list l">
+					<li class="l first"><a href="../index.html">首页</a></li>
+					<li class="l"><a href="javascript:;">裸钻</a></li>
+					<li class="l"><a href="javascript:;">钻戒定制</a></li>
+					<li class="l"><a href="javascript:;">定价产品</a></li>
+					<li class="l"><a href="javascript:;">黄金</a></li>
+					<li class="l"><a href="javascript:;">高端定制</a></li>
+					<li class="l"><a href="javascript:;">优惠活动</a></li>
+					<li class="l last"><a href="javascript:;">珠宝百科</a></li>
+				</ul>
+				<div class="phone l"><img src="../img/phone.png"/></div>
+			</div>
+		</div>
+		<div id="content">
+			<div class="login">
+				<div class="registerenter">
+					<a href="register.html">免费注册</a>
+				</div>
+				<div class="loginbody">
+					<div class="shoujihaoma">
+						<input type="text" value="11位数字" />
+					</div>
+					<div class="space yanzheng1"></div>
+					<div class="denglumima">
+						<input type="text" value="6-20位必须包含字母数字" />
+					</div>
+					<div class="space yanzheng2"></div>
+					<div class="agree">
+						<input type="checkbox"/> 自动登录
+						<a href="javascript:;"/>忘记密码？</a>
+					</div>
+					<div class="space1"></div>
+					<input type="button" class="denglu" value="会员登录" />
+					<div class="space2"></div>
+					<div class="disanfang">
+						<a class="qqicon l" href="javascript:;">
+							<img src="../img/qq.png"/>
+						</a>
+						<a href="javascript:;" class="wb l">
+							<img src="../img/wb.gif"/>
+						</a>
+						<a href="javascript:;" class="zfb l">
+							<img src="../img/zfb.gif"/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="service">
+			<div class="w">
+				<div class="top2"></div>
+				<div class="servicebottom">
+					<img src="../img/security.jpg" />
+				</div>
+			</div>
+		</div>
+		<div id="more">
+			<div class="w">
+				<ul>
+					<li class="buy l">
+						<div>
+							<span>购买支付</span>
+							<a href="javascript:;">新手教程</a>
+							<a href="javascript:;">订购流程</a>
+							<a href="javascript:;">支付常见问题</a>
+						</div>
+					</li>
+					<li class="send l">
+						<div>
+							<span>收货指南</span>
+							<a href="javascript:;">订单处理时间</a>
+							<a href="javascript:;">配送方法和收费</a>
+							<a href="javascript:;">防伪包装</a>
+						</div>
+					</li>
+					<li class="aftersale l">
+						<div>
+							<span>售后服务</span>
+							<a href="javascript:;">质量承诺</a>
+							<a href="javascript:;">购物协议</a>
+							<a href="javascript:;">售后服务</a>
+						</div>
+					</li>
+					<li class="vip l">
+						<div>
+							<span>会员中心</span>
+							<a href="javascript:;">如何成为会员</a>
+							<a href="javascript:;">积分规则</a>
+							<a href="javascript:;">优惠政策</a>
+						</div>
+					</li>
+					<li class="about l">
+						<div>
+							<span>关于戴欧妮</span>
+							<a href="javascript:;">戴欧妮介绍</a>
+							<a href="javascript:;">戴欧妮资质</a>
+							<a href="javascript:;">戴欧妮优势</a>
+						</div>
+					</li>
+					<li class="contact l">
+						<div>
+							<span>更多服务</span>
+							<a href="javascript:;">鉴定机构</a>
+							<a href="javascript:;">联系我们</a>
+							<a href="javascript:;">网站地图</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="w">
+				<div class="l">
+					<p>体验中心地址：新疆乌鲁木齐市北京南路556号小西沟京华杰座711室 联系电话：0991-3671906 联系人：崔先忠</p>
+					<p>Copyright @ 2007-2014 深圳市戴欧妮网络科技有限公司 ALL Rights Reserved 经营许可证编号：粤B2-20080371 粤ICP备11058956号-1</p>
+				</div>
+				<div class="r">
+					<p>全球24小时服务热线</p>
+					<p class="p1">4006-578-478</p>
+				</div>
+			</div>
+		</div>
+		<div id="guarantee">
+			<div class="w">
+				<img src="../img/footicon.gif" />
+			</div>
+		</div>
+<!---------------------悬浮导航栏---------------------------------------------->		
+		<ul class="floatdanghao">
+		<!-------------售前客服1---------------------------------------------->
+			<li class="beforesale">
+				<div class="icon"><img src="../img/sqkw.png"/></div>
+				<span>售前客服</span>
+				<div class="dialog" style>
+					<div class="title">
+						<img class="kefu" src="../img/kefu.jpg" />
+						<img class="close" src="../img/close.jpg" />
+						<div class="text">kefu03</div>
+					</div>
+					<div class="dialogbody">
+						<form>
+							<div class="name">
+								<span>*</span>姓名：<input type="text" placeholder="请填写您的真实姓名" />
+							</div><br />
+							<div class="phone">
+								<span>*</span>电话：<input type="text" placeholder="请填写固定或移动电话" />
+							</div><br />
+							<div class="email">
+							<span> </span>邮箱：<input type="text" placeholder="请填写您的邮箱地址" />
+							</div><br />
+							<div class="message">
+							<span>*</span><span style="color: #3e3e3e;width: 38px;height: 26px;">留言：</span><textarea style="color: #a9a9a9;">请将您的问题详细写下，我们会尽快与您联系</textarea>
+							</div><br />
+							<input type="button" value="提交" style="width: 68px;height: 34px;margin-left: 156px;" />
+						</form>
+					</div>
+				</div>
+			</li>
+		<!-------------售前客服2---------------------------------------------->
+			<li class="beforesale">
+				<div class="icon"><img src="../img/sqkw.png"/></div>
+				<span>售前客服</span>
+				<div class="dialog">
+					<div class="title">
+						<img class="kefu" src="../img/kefu2.jpg" />
+						<img class="close" src="../img/close.jpg" />
+						<div class="text">dionlysegfe_888</div>
+					</div>
+					<div class="dialogbody">
+						<form>
+							<div class="name">
+								<span>*</span>姓名：<input type="text" placeholder="请填写您的真实姓名" />
+							</div><br />
+							<div class="phone">
+								<span>*</span>电话：<input type="text" placeholder="请填写固定或移动电话" />
+							</div><br />
+							<div class="email">
+							<span> </span>邮箱：<input type="text" placeholder="请填写您的邮箱地址" />
+							</div><br />
+							<div class="message">
+							<span>*</span><span style="color: #3e3e3e;width: 38px;height: 26px;">留言：</span><textarea style="color: #a9a9a9;">请将您的问题详细写下，我们会尽快与您联系</textarea>
+							</div><br />
+							<input type="button" value="提交" style="width: 68px;height: 34px;margin-left: 156px;" />
+						</form>
+					</div>
+				</div>
+			</li>
+		<!-------------售后咨询---------------------------------------------->			
+			<li class="consult">
+				<div class="icon"><img src="../img/shzx.png"/></div>
+				<span>售后咨询</span>
+				<div class="dialog">
+					<div class="title">
+						<img class="kefu" src="../img/kefu3.jpg" />
+						<img class="close" src="../img/close.jpg" />
+						<div class="text">戴欧妮客服</div>
+					</div>
+					<div class="dialogbody">
+						<form>
+							<div class="name">
+								<span>*</span>姓名：<input type="text" placeholder="请填写您的真实姓名" />
+							</div><br />
+							<div class="phone">
+								<span>*</span>电话：<input type="text" placeholder="请填写固定或移动电话" />
+							</div><br />
+							<div class="email">
+							<span> </span>邮箱：<input type="text" placeholder="请填写您的邮箱地址" />
+							</div><br />
+							<div class="message">
+							<span>*</span><span style="color: #3e3e3e;width: 38px;height: 26px;">留言：</span><textarea style="color: #a9a9a9;">请将您的问题详细写下，我们会尽快与您联系</textarea>
+							</div><br />
+							<input type="button" value="提交" style="width: 68px;height: 34px;margin-left: 156px;" />
+						</form>
+					</div>
+				</div>
+			</li>
+		<!-------------加盟咨询---------------------------------------------->			
+			<li class="joinconsult">
+				<div class="icon"><img src="../img/jmzx.png"/></div>
+				<span>加盟咨询</span>
+				<div class="dialog">
+					<div class="title">
+						<img class="kefu" src="../img/kefu4.jpg" />
+						<img class="close" src="../img/close.jpg" />
+						<div class="text">shanghu02</div>
+					</div>
+					<div class="dialogbody">
+						<form>
+							<div class="name">
+								<span>*</span>姓名：<input type="text" placeholder="请填写您的真实姓名" />
+							</div><br />
+							<div class="phone">
+								<span>*</span>电话：<input type="text" placeholder="请填写固定或移动电话" />
+							</div><br />
+							<div class="email">
+							<span> </span>邮箱：<input type="text" placeholder="请填写您的邮箱地址" />
+							</div><br />
+							<div class="message">
+							<span>*</span><span style="color: #3e3e3e;width: 38px;height: 26px;">留言：</span><textarea style="color: #a9a9a9;">请将您的问题详细写下，我们会尽快与您联系</textarea>
+							</div><br />
+							<input type="button" value="提交" style="width: 68px;height: 34px;margin-left: 156px;" />
+						</form>
+					</div>
+				</div>
+			</li>
+		<!-------------二维码---------------------------------------------->			
+			<li class="erweima">
+				<div class="icon"><img src="../img/ewm.png"/></div>
+				<span>二维码</span>
+				<img class="vm" src="../img/vm.png"/>
+			</li>
+		<!-------------返回顶部--------------------------------------------->			
+			<li class="returntop">
+				<div class="icon"><img src="../img/top.png"/></div>
+				<span>返回顶部</span>
+			</li>
+		</ul>
+	</body>
+</html>

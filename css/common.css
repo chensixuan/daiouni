@@ -1,0 +1,198 @@
+/*------------------------------------重置样式--------------------------------*/
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,li,input,img,a,p,fieldset,legend{padding: 0;margin: 0;}
+body{font-size:12px ;font-family: "微软雅黑";color: #3e3e3e;}
+ul,ol,li{list-style: none;}
+img{border: 0;display: block;}
+a{text-decoration: none;color: #3e3e3e;}
+a:hover{color: red;}
+
+/*------------------------------------公共样式--------------------------------*/
+.l{float: left;}
+.r{float: right;}
+.w{width: 1180px;margin: 0 auto;}
+
+/*-------------------------------------top-----------------------------------*/
+#top{width:100%;background: #f3f3f3;}
+#top .w{height: 38px;font-size:11px;line-height: 38px;width: 1180px;}
+#top .w a{margin-right:5px;}
+#top .w .zuo{width: 550px;}
+#top .w .you{width: 516px;}
+#top .w .you .renzheng{padding-left:20px;background: url(../img/icon.png) no-repeat 0 -39px;}
+#top .w .you .jindian{padding-left:20px;background: url(../img/icon.png) no-repeat 0 -39px;}
+#top .w .you .mine{padding-left:20px;background: url(../img/icon.png) no-repeat 0 -19px;}
+#top .w .you .phone{padding-left:20px;background: url(../img/icon.png) no-repeat 0 -65px;}
+#top .w .you .weixin{padding-left:23px;background: url(../img/icon.png) no-repeat 0 -96px;}
+#top .w .you .weibo{padding-left:23px;background: url(../img/icon.png) no-repeat 0 -129px;}
+
+/*-------------------------------------header--------------------------------*/
+#header{background: #fff;}
+#header .w{height: 100px;}
+#header .w .center{margin-left:340px ;width: 262px;margin-top: 23px;}
+#header .w .center .search{border: 1px solid #ccc;width: 262px;height: 30px;}
+#header .w .center .search input{border: 0;width: 200px;height: 30px;}
+#header .w .center .search a{display: block;width: 62px;height: 30px;background: #6d6c6c;color: #fff;text-align: center;line-height: 30px;}
+#header .w .center .yongheng{margin-top:13px;}
+#header .w .center .yongheng a{color: #7d7d7d;}
+#header .w .center .yongheng a:hover{color: red;}
+#header .w .code{width: 240px;height: 90px;margin-top:5px;background: url(../img/code.png) no-repeat;}
+
+/*----------------------------------------nav--------------------------------*/
+#nav{background: #fff;}
+#nav .w{height: 38px;}
+			/*---------------------nav_二级菜单----------------------*/
+#nav .w .category{width:182px ;height: 25px;background:#c11e20 url(../img/sanjiao.png) no-repeat 166px 0;color: #fff;padding-left: 18px;padding-top: 13px;}
+#nav .w .xiala{width: 200px;height: 422px;padding-top: 38px;display: none;z-index: 999;}
+#nav .w .xiala a{color: #fff;}
+#nav .w .xiala a:hover{color: red;}
+#nav .w .xiala ul{width: 200px;height: 422px;}
+
+#nav .w .xiala ul li.zuanshi{width: 200px;height: 90px;}
+#nav .w .xiala ul li.zuanshi a{font-size: 11px;}
+#nav .w .xiala ul li.zuanshi .kind{width: 58px;height: 90px;}
+#nav .w .xiala ul li.zuanshi .kind a{display: block;padding-left:10px;width: 48px;height: 90px;line-height: 30px;}
+#nav .w .xiala ul li.zuanshi .detail{width: 124px;height: 90px;}
+#nav .w .xiala ul li.zuanshi .detail a{display: block;width: 50px;height: 26px;padding-left: 10px;line-height: 30px;}
+
+#nav .w .xiala ul li.jiezhi{width: 200px;height: 90px;}
+#nav .w .xiala ul li.jiezhi a{font-size: 11px;}
+#nav .w .xiala ul li.jiezhi .kind{width: 58px;height: 90px;}
+#nav .w .xiala ul li.jiezhi .kind a{display: block;padding-left:10px;width: 48px;height: 90px;line-height: 30px;}
+#nav .w .xiala ul li.jiezhi .detail{width: 124px;height: 90px;}
+#nav .w .xiala ul li.jiezhi .detail a{display: block;width: 50px;height: 26px;padding-left: 10px;line-height: 30px;}
+
+#nav .w .xiala ul li.diaozhui{width: 200px;height: 66px;}
+#nav .w .xiala ul li.diaozhui a{font-size: 11px;}
+#nav .w .xiala ul li.diaozhui .kind{width: 58px;height: 66px;}
+#nav .w .xiala ul li.diaozhui .kind a{display: block;padding-left:10px;width: 48px;height: 66px;line-height: 30px;}
+#nav .w .xiala ul li.diaozhui .detail{width: 124px;height: 66px;}
+#nav .w .xiala ul li.diaozhui .detail a{display: block;width: 50px;height: 26px;padding-left: 10px;line-height: 30px;}
+
+#nav .w .xiala ul li.ershi{width: 200px;height: 66px;}
+#nav .w .xiala ul li.ershi a{font-size: 11px;}
+#nav .w .xiala ul li.ershi .kind{width: 58px;height: 66px;}
+#nav .w .xiala ul li.ershi .kind a{display: block;padding-left:10px;width: 48px;height: 66px;line-height: 30px;}
+#nav .w .xiala ul li.ershi .detail{width: 124px;height: 66px;}
+#nav .w .xiala ul li.ershi .detail a{display: block;width: 50px;height: 26px;padding-left: 10px;line-height: 30px;}
+
+#nav .w .xiala ul li.shoulian{width: 200px;height: 41px;}
+#nav .w .xiala ul li.shoulian a{font-size: 11px;}
+#nav .w .xiala ul li.shoulian .kind{width: 58px;height: 41px;}
+#nav .w .xiala ul li.shoulian .kind a{display: block;padding-left:10px;width: 48px;height: 41px;line-height: 30px;}
+#nav .w .xiala ul li.shoulian .detail{width: 124px;height: 41px;}
+#nav .w .xiala ul li.shoulian .detail a{display: block;width: 50px;height: 26px;padding-left: 10px;line-height: 30px;}
+
+#nav .w .xiala ul li.huangjin{width: 200px;height: 41px;}
+#nav .w .xiala ul li.huangjin a{font-size: 11px;}
+#nav .w .xiala ul li.huangjin .kind{width: 58px;height: 41px;}
+#nav .w .xiala ul li.huangjin .kind a{display: block;padding-left:10px;width: 48px;height: 41px;line-height: 30px;}
+#nav .w .xiala ul li.huangjin .detail{width: 124px;height: 41px;}
+#nav .w .xiala ul li.huangjin .detail a{display: block;width: 50px;height: 26px;padding-left: 10px;line-height: 30px;}
+
+#nav .w .xiala ul li.dingzhi{width: 200px;height: 41px;}
+#nav .w .xiala ul li.dingzhi a{font-size: 11px;}
+#nav .w .xiala ul li.dingzhi .kind{width: 80px;height: 41px;}
+#nav .w .xiala ul li.dingzhi .kind a{display: block;padding-left:10px;width: 48px;height: 41px;line-height: 30px;}
+#nav .w .xiala ul li.dingzhi .detail{width: 120px;height: 41px;}
+#nav .w .xiala ul li.dingzhi .detail a{display: block;width: 77px;height: 41px;padding-left: 10px;line-height: 30px;}
+
+			/*---------------------nav_横向导航-------------------*/
+#nav .w .list{height: 38px;}
+#nav .w .list li{height: 38px;}
+#nav .w .list li a{display:block;height: 12px;padding: 13px 25px;color: #222;font-weight: bold;}
+#nav .w .list li a:hover{color: red;}
+#nav .w .list li.first a{padding-left:50px;}
+#nav .w .list li.last a{padding-right:25px;}
+
+/*---------------------------------------more--------------------------------*/
+#more{height: 160px;background: #e9e9e9;border-top: 1px solid #ccc;}
+#more .w{height: 160px;background: url(../img/shouhou.png) no-repeat 0 13px;}
+#more .w ul{height: 140px;padding-top: 20px;}
+
+#more .w ul li{width: 195px;height:130px;border-right: 1px solid #ccc;}
+#more .w ul li div{width: 145px;height: 117px;padding-top:15px ;padding-left: 50px;}
+
+#more .w ul li.buy{width: 196px;height:130px;border-left: 1px solid #ccc;border-right: 1px solid #ccc;}
+#more .w ul li.buy div{width: 146px;height: 117px;padding-top:15px ;padding-left: 50px;}
+
+#more .w ul li span{font-weight: bold;display: block;width:95px;height:18px;line-height:18px;margin-bottom: 10px;}
+#more .w ul li a{display: block;width: 95px;height: 24px;line-height:24px;}
+#more .w ul li.buy a{display: block;width: 96px;height: 24px;line-height:24px;}
+
+/*-------------------------------------footer--------------------------------*/
+#footer{background: #333;}
+#footer .w{height: 96px;}
+#footer .w p{color: #b9b9b9;margin: 20px;}
+#footer .w p.p1{font-size: 14px;font-weight: bold;}
+/*----------------------------------guarantee--------------------------------*/
+#guarantee{height: 84px;}
+#guarantee .w{height: 84px;overflow: hidden;}
+#guarantee .w img{margin-top:15px;}
+
+/*-------------------------------floatdanghao--------------------------------*/
+.floatdanghao{width: 64px;height: 394px;position: fixed;right: 0;top: 330px;z-index: 999;}
+.floatdanghao li{width: 64px;height: 64px;background: #c11e20;margin-bottom: 2px;cursor: pointer;}
+.floatdanghao li.returntop{margin-bottom: 0;}
+.floatdanghao li .icon{width: 48px;height: 30px;padding-top:10px ;padding-left: 16px;}
+.floatdanghao li.returntop .icon{width: 44px;height: 30px;padding-top:10px ;padding-left: 20px;}
+.floatdanghao li.erweima .icon{width: 44px;height: 30px;padding-top:10px ;padding-left: 18px;}
+.floatdanghao li span{display: block;width: 64px;height: 24px;text-align: center;line-height: 24px;}
+			/*--------------填写访客信息页面(售前客服)-------------------*/
+.floatdanghao li.beforesale .dialog{width: 413px;height: 518px;position: fixed;bottom: 0;right: 0;display: none;}
+.floatdanghao li.beforesale .dialog .title{width: 413px;height: 55px;overflow: hidden;}
+.floatdanghao li.beforesale .dialog .title .kefu{float: left;border: 1px solid #5f6467;display: block;width: 54px;height: 53px;margin-left:20px ;}
+.floatdanghao li.beforesale .dialog .title .text{width: 331px;height: 42px;background: #53a5f1;margin-top: 13px;padding-left: 80px;line-height: 42px;color: #fff;border: 1px solid #5f6467;border-bottom: 0;}
+.floatdanghao li.beforesale .dialog .title .close{float: right;display: block;width: 11px;height: 11px;margin-right:15px ;margin-top: 30px;cursor: pointer;}
+
+.floatdanghao li.beforesale .dialog .dialogbody{width: 378px;height: 444px;background: #fff;border: 1px solid #5f6467;border-top: 0;padding-left: 35px;padding-top: 20px;}
+.floatdanghao li.beforesale .dialog .dialogbody form .name{width: 350px;height:28px;}
+.floatdanghao li.beforesale .dialog .dialogbody form .phone{width: 350px;height:28px;}
+.floatdanghao li.beforesale .dialog .dialogbody form .email{width: 350px;height:28px;}
+.floatdanghao li.beforesale .dialog .dialogbody span{color: red;float: left;display: block;width: 12px;height: 26px;}
+.floatdanghao li.beforesale .dialog .dialogbody input{display: inline-block;width: 297px;height: 26px;}
+.floatdanghao li.beforesale .dialog .dialogbody form .message{width: 350px;height: 143px;}
+.floatdanghao li.beforesale .dialog .dialogbody form .message span{color: red;float: left;display: block;width: 10px;height: 26px;}
+.floatdanghao li.beforesale .dialog .dialogbody form .message textarea{width: 294px;height: 142px;display: inline-block;}
+
+		/*-------------------填写访客信息页面(售后咨询)---------------------*/
+.floatdanghao li.consult .dialog{width: 413px;height: 518px;position: fixed;bottom: 0;right: 0;display: none;}
+.floatdanghao li.consult .dialog .title{width: 413px;height: 55px;overflow: hidden;}
+.floatdanghao li.consult .dialog .title .kefu{float: left;border: 1px solid #5f6467;display: block;width: 54px;height: 53px;margin-left:20px ;}
+.floatdanghao li.consult .dialog .title .text{width: 331px;height: 42px;background: #53a5f1;margin-top: 13px;padding-left: 80px;line-height: 42px;color: #fff;border: 1px solid #5f6467;border-bottom: 0;}
+.floatdanghao li.consult .dialog .title .close{float: right;display: block;width: 11px;height: 11px;margin-right:15px ;margin-top: 30px;cursor: pointer;}
+
+.floatdanghao li.consult .dialog .dialogbody{width: 378px;height: 444px;background: #fff;border: 1px solid #5f6467;border-top: 0;padding-left: 35px;padding-top: 20px;}
+.floatdanghao li.consult .dialog .dialogbody form .name{width: 350px;height:28px;}
+.floatdanghao li.consult .dialog .dialogbody form .phone{width: 350px;height:28px;}
+.floatdanghao li.consult .dialog .dialogbody form .email{width: 350px;height:28px;}
+.floatdanghao li.consult .dialog .dialogbody span{color: red;float: left;display: block;width: 12px;height: 26px;}
+.floatdanghao li.consult .dialog .dialogbody input{display: inline-block;width: 297px;height: 26px;}
+.floatdanghao li.consult .dialog .dialogbody form .message{width: 350px;height: 143px;}
+.floatdanghao li.consult .dialog .dialogbody form .message span{color: red;float: left;display: block;width: 10px;height: 26px;}
+.floatdanghao li.consult .dialog .dialogbody form .message textarea{width: 294px;height: 142px;display: inline-block;}
+
+		/*-------------------填写访客信息页面(加盟咨询)---------------------*/
+.floatdanghao li.joinconsult .dialog{width: 413px;height: 518px;position: fixed;bottom: 0;right: 0;display: none;}
+.floatdanghao li.joinconsult .dialog .title{width: 413px;height: 55px;overflow: hidden;}
+.floatdanghao li.joinconsult .dialog .title .kefu{float: left;border: 1px solid #5f6467;display: block;width: 54px;height: 53px;margin-left:20px ;}
+.floatdanghao li.joinconsult .dialog .title .text{width: 331px;height: 42px;background: #53a5f1;margin-top: 13px;padding-left: 80px;line-height: 42px;color: #fff;border: 1px solid #5f6467;border-bottom: 0;}
+.floatdanghao li.joinconsult .dialog .title .close{float: right;display: block;width: 11px;height: 11px;margin-right:15px ;margin-top: 30px;cursor: pointer;}
+
+.floatdanghao li.joinconsult .dialog .dialogbody{width: 378px;height: 444px;background: #fff;border: 1px solid #5f6467;border-top: 0;padding-left: 35px;padding-top: 20px;}
+.floatdanghao li.joinconsult .dialog .dialogbody form .name{width: 350px;height:28px;}
+.floatdanghao li.joinconsult .dialog .dialogbody form .phone{width: 350px;height:28px;}
+.floatdanghao li.joinconsult .dialog .dialogbody form .email{width: 350px;height:28px;}
+.floatdanghao li.joinconsult .dialog .dialogbody span{color: red;float: left;display: block;width: 12px;height: 26px;}
+.floatdanghao li.joinconsult .dialog .dialogbody input{display: inline-block;width: 297px;height: 26px;}
+.floatdanghao li.joinconsult .dialog .dialogbody form .message{width: 350px;height: 143px;}
+.floatdanghao li.joinconsult .dialog .dialogbody form .message span{color: red;float: left;display: block;width: 10px;height: 26px;}
+.floatdanghao li.joinconsult .dialog .dialogbody form .message textarea{width: 294px;height: 142px;display: inline-block;}
+
+		/*-------------------二维码---------------------*/	
+.floatdanghao li.erweima .vm{position: absolute;bottom: 0;right: 64px;display: none;}
+
+
+
+
+
+
+

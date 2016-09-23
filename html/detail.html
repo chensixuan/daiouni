@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/detail.css" />
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/cookie.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/detail.js"></script>
+	</head>
+	<body>
+		<div id="top">
+			<div class="w">
+				<div class="zuo l">
+					<span class="l">欢迎光临戴欧妮珠宝网！</span>
+					<span class="l">您好,&nbsp;</span>
+					<div class="dengluzhuce l">
+						<a href="login.html" class="denglu">登录</a>
+						<a class="zhuce" href="register.html">/注册</a> 
+					</div>
+					<div class="tiyan l">
+						体验中心：<a href="javascript:;">新疆•乌鲁木齐北京南路旗舰店</a> <a href="javascript:;">切换</a>
+					</div>
+				</div>
+				<div class="you r"><a class="mine" href="login.html">我的戴欧妮</a> <a href="shoppingcar.html">我的珠宝箱[<span style="color: #db3962;" class="jianshu">0</span>]</a> <a href="javascript:;" class="renzheng">正品认证</a> <a href="javascript:;" class="jindian">预约进店</a> <a class="phone" href="javascript:;">手机版</a> <a class="weixin" href="javascript:;">微信</a> <a class="weibo" href="javascript:;">微博</a></div>
+			</div>
+		</div>
+		<div id="header">
+			<div class="w">
+				<div class="logo l"><a href="../index.html"><img src="../img/logo.png"/></a></div>
+				<div class="center l">
+					<div class="search">
+						<input class="inp l" type="text" placeholder="请输入型号或者名称" />
+						<a class="l" href="list.html">搜 索</a>
+					</div>
+					<div class="yongheng">
+						<a href="list.html">永恒</a>
+						<a href="list.html">浪漫</a>
+						<a href="list.html">一生</a>
+						<a href="list.html">爱情</a>
+						<a href="list.html">蜜语</a>
+					</div>
+				</div>
+				<div class="code r"></div>
+			</div>
+		</div>
+		<div id="nav">
+			<div class="w" style="position: relative;">
+				<div class="category l">所有分类</div>
+				<div class="xiala" style="position: absolute;">
+					<ul>
+						<li class="zuanshi"style="background: #383333 ;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">钻石</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">30分</a>
+								<a class="l" href="javascript:;">50分</a>
+								<a class="l" href="javascript:;">80分</a>
+								<a class="l" href="javascript:;">1克拉</a>
+								<a class="l" href="javascript:;">异形钻</a>
+								<a class="l" href="javascript:;">钻石投资</a>
+							</div>
+						</li>
+						<li class="jiezhi" style="background: #312d2d;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">戒指</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">钻石女戒</a>
+								<a class="l" href="javascript:;">钻石男戒</a>
+								<a class="l" href="javascript:;">情侣对戒</a>
+								<a class="l" href="javascript:;">彩宝戒指</a>
+								<a class="l" href="javascript:;">珍珠戒指</a>
+							</div>
+						</li>
+						<li class="diaozhui" style="background: #383333;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">吊坠</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">钻石吊坠</a>
+								<a class="l" href="javascript:;">珍珠吊坠</a>
+								<a class="l" href="javascript:;">彩宝吊坠</a>
+							</div>
+						</li>
+						<li class="ershi" style="background: #312d2d;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">耳饰</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">钻石耳饰</a>
+								<a class="l" href="javascript:;">珍珠耳饰</a>
+								<a class="l" href="javascript:;">彩宝耳饰</a>
+							</div>
+						</li>
+						<li class="shoulian" style="background: #383333;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">手链</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">钻石手链</a>
+							</div>
+						</li>
+						<li class="huangjin" style="background: #312d2d;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">黄金</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">投资金条</a>
+								<a class="l" href="javascript:;">黄金饰品</a>
+							</div>
+						</li>
+						<li class="dingzhi" style="background: #383333;">
+							<div class="kind l">
+								<a class="l" href="javascript:;">来图定制</a>
+							</div>
+							<div class="detail l">
+								<a class="l" href="javascript:;">戴欧妮加盟咨询</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+					
+				<ul class="list l">
+					<li class="l first"><a href="../index.html">首页</a></li>
+					<li class="l"><a href="javascript:;">裸钻</a></li>
+					<li class="l"><a href="javascript:;">钻戒定制</a></li>
+					<li class="l"><a href="javascript:;">定价产品</a></li>
+					<li class="l"><a href="javascript:;">黄金</a></li>
+					<li class="l"><a href="javascript:;">高端定制</a></li>
+					<li class="l"><a href="javascript:;">优惠活动</a></li>
+					<li class="l last"><a href="javascript:;">珠宝百科</a></li>
+				</ul>
+				<div class="phone l"><img src="../img/phone.png"/></div>
+			</div>
+		</div>
+		<div id="content">
+			<div class="w">
+				<div class="title">
+					<div>
+						<a href="../index.html">首页</a> <span>></span>
+						<a href="list.html">产品</a> <span>></span>
+						<span>女戒</span>
+					</div>
+				</div>
+				<div class="buy">
+					<span class="space"></span>
+					<div class="tu l">
+						<div class="datu">
+							<div class="xiaokuai"></div>
+							<div class="bigtu">
+								<img style="z-index: 1;" src="../img/FR-9676-1.jpg"/>
+								<img src="../img/FR-9676-2.jpg"/>
+								<img src="../img/FR-9676-3.jpg"/>
+								<img src="../img/FR-9676-4.jpg"/>
+								<img src="../img/FR-9676-5.jpg"/>
+								<img src="../img/FR-9676-6.jpg"/>
+								<img src="../img/FR-9676-7.jpg"/>
+								<img src="../img/FR-9676-8.jpg"/>
+								<img src="../img/FR-9676-9.jpg"/>
+							</div>
+							<ul>
+								<li style="z-index: 1;">
+									<img src="../img/FR-9676-1.jpg" />
+								</li>
+								<li>
+									<img src="../img/FR-9676-2.jpg"/>
+								</li>
+								<li>
+									<img src="../img/FR-9676-3.jpg"/>
+								</li>
+								<li>
+									<img src="../img/FR-9676-4.jpg"/>
+								</li>
+								<li>
+									<img src="../img/FR-9676-5.jpg"/>
+								</li>
+								<li>
+									<img src="../img/FR-9676-6.jpg"/>
+								</li>
+								<li>
+									<img src="../img/FR-9676-7.jpg"/>
+								</li>
+								<li>
+									<img src="../img/FR-9676-8.jpg"/>
+								</li>
+								<li>
+									<img src="../img/FR-9676-9.jpg"/>
+								</li>
+							</ul>
+						</div>
+						<div class="xiaotu">
+							<div class="lbtn l"></div>
+							<div class="ul l">
+								<ul class="l">
+									<li>
+										<img src="../img/FR-9676-1.jpg"/>
+									</li>
+									<li>
+										<img src="../img/FR-9676-2.jpg"/>
+									</li>
+									<li>
+										<img src="../img/FR-9676-3.jpg"/>
+									</li>
+									<li>
+										<img src="../img/FR-9676-4.jpg"/>
+									</li>
+									<li>
+										<img src="../img/FR-9676-5.jpg"/>
+									</li>
+									<li>
+										<img src="../img/FR-9676-6.jpg"/>
+									</li>
+									<li>
+										<img src="../img/FR-9676-7.jpg"/>
+									</li>
+									<li>
+										<img src="../img/FR-9676-8.jpg"/>
+									</li>
+									<li class="last">
+										<img src="../img/FR-9676-9.jpg"/>
+									</li>
+								</ul>
+							</div>
+							<div class="rbtn l"></div>
+						</div>
+					</div>
+					<div class="buyinformation l">
+						<div class="goumai">
+							<p class="productname">产品名称：
+							<span class="aa" style="font-weight: bold;">繁花·绕 - DRW010814D</span>
+							</p>
+							<p class="productprice1">市场价格：
+								<span class="bb" style="text-decoration: line-through;color: #ccc;">¥6573</span>
+							</p>
+							<p class="productprice2">商城价格:
+								<span class="cc" style="color: #db3962;">¥5258</span>
+							</p>
+							<p class="shuoming">主石说明：钻石 数量：1粒 重量：0.2克拉</p>
+							<p class="xuanyongcaizhi">
+								<span class="l">选用材质：</span>
+								<a class="shibak" href="javascript:;">18K</a>
+								<a href="javascript:;">PT900</a>
+								<a href="javascript:;">PT950</a>
+							</p>
+							<p class="shoucun">手寸：
+								<select>
+									<option>12</option>
+									<option>12.5</option>
+									<option>13</option>
+								</select>
+							</p>
+							<p class="kezi">
+								<span style="float: left;">刻字：</span>
+								<input type="text" />
+								<span style="float: left;">&nbsp;&nbsp;如：Love一生（8个字符以内，中文为4个字符）</span>
+							</p>
+							<p>证书说明：单个钻石小于20分的钻饰，只出具成品鉴定证书</p>
+							<p>特别说明：15工作日，特快定制6工作日，不含邮寄时间，有问题请<a href="javascript:;" style="color: #db3962;">咨询客服</a></p>
+							<p>库存配送：有货，全国顺丰保价包邮</p>
+						</div>
+						<div class="jiaru">
+							<a class="jiarugwc" href="shoppingcar.html"></a>
+							<a class="jiarushoucang" href="#"></a>
+						</div>
+					</div>
+				</div>
+				<div class="detail">
+					<div class="zuo l">
+						<div class="buyguarantee">
+							<div class="onetitle">百分百安心购物保证</div>
+							<img src="../img/security.gif" />
+						</div>
+						<div class="hot">
+							<div class="twotitle">热门推荐</div>
+							<a href="list.html">
+								<img src="../img/FR-8039-0.jpg"/>
+								<p>永恒之心</p>
+							</a>
+							<a href="list.html">
+								<img src="../img/FR-9676-0.jpg"/>
+								<p>花眸</p>
+							</a>
+							<a href="list.html">
+								<img style="height: 200px;" src="../img/201502041538168873.jpg"/>
+								<p>最爱</p>
+							</a>
+							<a href="list.html">
+								<img style="height: 200px;" src="../img/201502041513258199.jpg"/>
+								<p>True love</p>
+							</a>
+							<a href="list.html">
+								<img style="height: 200px;" src="../img/201503061132321922.jpg"/>
+								<p>缘徊</p>
+							</a>
+							
+						</div>
+						<div class="history">
+							<div class="threetitle">最近浏览记录</div>
+							<a href="list.html">
+								<img src="../img/FR-9676-0.jpg"/>
+								<p>花眸</p>
+							</a>
+							<a href="list.html">
+								<img style="height: 200px;" src="../img/201502041538168873.jpg"/>
+								<p>最爱</p>
+							</a>
+							<a href="list.html">
+								<img style="height: 200px;" src="../img/ER-6023-0.jpg"/>
+								<p>春之花蕊</p>
+							</a>
+						</div>
+					</div>
+					<div class="information r">
+						<div class="informationtitle">
+							<div class="productinFormation l">
+								<a href="#productinFormation">产品信息</a>
+							</div>
+							<div class="productService l">
+								<a href="#productService">产品服务</a>
+							</div>
+							<div class="question l">
+								<a href="#question">常见问题</a>
+							</div>
+						</div>
+						<div class="informationbody">
+							<div class="productinFormation" id="productinFormation">
+								<img src="../img/FR-9676-1.jpg" />
+								<img src="../img/FR-9676-2.jpg" />
+								<img src="../img/FR-9676-3.jpg" />
+								<img src="../img/FR-9676-4.jpg" />
+								<img src="../img/FR-9676-5.jpg" />
+								<img src="../img/FR-9676-6.jpg" />
+								<img src="../img/FR-9676-7.jpg" />
+								<img src="../img/FR-9676-8.jpg" />
+								<img src="../img/FR-9676-9.jpg" />
+							</div>
+							<div class="productService" id="productService">
+								<div class="Title">
+									权威鉴定证书
+								</div>
+								<p>证书是钻石质量的保证，也是钻石身份的象征。每一颗戴欧妮极致璀璨美钻，均配备美国宝石学院GIA国际鉴定证书或国家CMA权威证书，可登陆GIA与CMA网站复核。</p>
+								<img src="../img/gia1.jpg" />
+								<div class="Title">
+									专业品质								
+								</div>
+								<p>
+									优质选材与顶尖工艺 是戴欧妮缔造非凡美钻的秘密，依托自有国际珠宝创意工厂，戴欧妮汇聚全球钻饰加工顶尖技术，层层严选精品钻石，以精湛的设计与工艺，完美制作璀璨钻饰，光芒闪耀，华美，尊贵，优雅，引领风尚，见证非凡。
+								</p>
+								<div class="qualityodd">
+									<div class="l">
+										<p class="jingxuan">
+											1.精选品级 特别璀璨
+										</p>
+										<p class="jianzhengfeifan">
+											见证非凡的戴欧妮克拉美钻，是以严格标准，从精品钻石之中精选出来的高品级美钻。多年来，戴欧妮一直不断搜罗卓越美钻，从钻石大国南非到钻石之都比利时安特卫普，再到印度、香港等世界各地，经过长时间评估测定，严选克拉钻石当中的佼佼者，每一颗的品质都非同凡响，因此特别闪耀。
+										</p>
+									</div>
+									<div class="r">
+										<img style="display: block;width: 185px;height: 123px;margin: 0;" src="../img/lazyload.gif" />
+									</div>
+								</div>
+								<div class="qualityeven">
+									<div class="l">
+										<img style="display: block;width: 185px;height: 123px;margin: 0;" src="../img/cpt2.jpg" />
+									</div>
+									<div class="r">
+										<p class="jingxuan">
+											2.极致切割 完美闪耀
+										</p>
+										<p class="jianzhengfeifan">
+											在戴欧妮克拉美钻流光溢彩的传奇历程中，切割是其中的重要环节。未经切割的钻石，就像冰糖一样，朴实而内敛。划线，劈开，切割，从矿石到钻石，从质朴到闪耀，正式拉开序幕。为了唤醒钻石深藏的美，戴欧妮不惜切割损耗更多的原坯，以坚持完美的切割比例，完美释放克拉美钻的璀璨光芒。
+										</p>
+									</div>
+								</div>
+								<div class="qualityodd">
+									<div class="l">
+										<p class="jingxuan">
+											3. 完美打磨 光滑如镜
+										</p>
+										<p class="jianzhengfeifan">
+											钻石的每个切面，都需要经过细腻的打磨抛光，确保形状大小、对称性以及角度精确无瑕，才能让光线完美穿透，产生美妙的闪耀，这需要经验丰富的资深技师才能够完成。戴欧妮克拉美钻，每个切面均经过精准切磨，光滑度如同镜面，其亮光度、火彩以及闪光，都达到完美的状态，光芒极致璀璨。
+										</p>
+									</div>
+									<div class="r">
+										<img style="display: block;width: 185px;height: 123px;margin: 0;" src="../img/cpt3.jpg" />
+									</div>
+								</div>
+								<div class="qualityeven">
+									<div class="l">
+										<img style="display: block;width: 185px;height: 123px;margin: 0;" src="../img/cpt4.jpg" />
+									</div>
+									<div class="r">
+										<p class="jingxuan">
+											4. 顶尖设计 再创经典
+										</p>
+										<p class="jianzhengfeifan">
+											戴欧妮精品克拉钻戒的设计师，以卓越的天赋，秉承全球钻戒百年经典，以经典的镶嵌与款式为蓝本，精准把握贵金属材料的特性，根据不同形状钻石的不同美态，融合当今最时尚的潮流元素，展现出丰富又独特的不同风格，完美展现克拉美钻的闪耀风采，更成就出全新的钻戒经典。
+										</p>
+									</div>
+								</div>
+								<div class="qualityodd">
+									<div class="l">
+										<p class="jingxuan">
+											5. 从容镶嵌 技艺精湛
+										</p>
+										<p class="jianzhengfeifan">
+											专注与细致，一向是戴欧妮珠宝技师的工作态度。长时间的技术积累，戒指的每个细节，早已了然于心，旁人看来惊心动魄的克拉钻镶嵌，早就做到胸有成竹。来自对每个镶爪硬度韧性、火候温度的敏锐感觉与精准把握。电光火石之间，克拉美钻的镶嵌自然水到渠成，毫厘不差，稳妥而美丽非凡。
+										</p>
+									</div>
+									<div class="r">
+										<img style="display: block;width: 185px;height: 123px;margin: 0;" src="../img/cpt5.jpg" />
+									</div>
+								</div>
+								<div class="qualityeven">
+									<div class="l">
+										<img style="display: block;width: 185px;height: 123px;margin: 0;" src="../img/cpt6.jpg" />
+									</div>
+									<div class="r">
+										<p class="jingxuan">
+											6. 巧夺天工 至美无瑕
+										</p>
+										<p class="jianzhengfeifan">
+											完美难得，尤其对于克拉钻戒，毫厘之差，即可能沦为普通钻戒。完美的克拉钻戒，要求细腻的表面抛光加工，这需要一份对完美的执着，以及对表面工艺的精深把握。每一枚克拉钻戒，戴欧妮资深技师都不容许自己留下半点遗憾，让每颗钻戒的美浑然天成，质感顺滑如丝，佩戴体验无比美妙。
+										</p>
+									</div>
+								</div>
+								<div class="Title">
+									个性刻字								
+								</div>
+								<p>
+									优质选材与顶尖工艺 是戴欧妮缔造非凡美钻的秘密，依托自有国际珠宝创意工厂，戴欧妮汇聚全球钻饰加工顶尖技术，层层严选精品钻石，以精湛的设计与工艺，完美制作璀璨钻饰，光芒闪耀，华美，尊贵，优雅，引领风尚，见证非凡。
+								</p>
+								<img src="../img/cpt7.jpg" style="width: 664px;height: 251px;"/>
+								<div class="Title">
+									精美包装								
+								</div>
+								<img src="../img/cpt8.jpg" style="width: 700px;height: 290px;"/>
+								<div class="Title">
+									放心物流								
+								</div>
+								<div class="wuliu">
+									<p>为了珠宝的安全与快捷送达，戴欧妮全程采用顺丰快递进行配送，并全部购买高额保险，通过与合作伙伴的专业协作，提供了安全快速的服务。</p>
+								</div>
+								<div class="Title">
+									无忧售后								
+								</div>
+								<p>通过优质选材与精湛工艺，戴欧妮为客户提供高品质的产品。因珠宝的特殊性，黄金产品和定制类产品一经售出概不退换，其它产品30天内如有质量问题，请联系售后客服办理退换货。</p>
+								<img src="../img/shouhou1.png" style="width: 720px;height: 163px;margin: 0;" />
+								<div class="Title">
+									钻饰保养								
+								</div>
+								<p>品质出众的戴欧妮钻石，以领先的设计与精湛工艺，光彩照人，佩戴起来自然拥有超凡魅力。钻石饰品珍贵，需要小心佩戴与呵护，以下是日常保养建议：</p>
+								<div class="baoyang">
+									<img src="../img/cpt11.jpg" style="width: 234px;height: 233px;margin: 0;" />
+									<div class="clean l">
+										<p class="jingxuan">
+											1.懂得清洗钻石
+										</p>
+										<p class="jianzhengfeifan">
+											保持钻石的干净，钻石的璀璨取决于可以进入其中光线的多少，手指的触摸会留下污迹，从而影响光线反射，可选用质保单提供的清洗方法进行清洁。
+										</p>
+										<p class="jingxuan">
+											2. 懂得保护钻石
+										</p>
+										<p class="jianzhengfeifan">
+											当不佩戴时，请始终将钻饰单独存放在首饰盒中，虽然钻石是人类所知的最坚硬物质之一，但钻石与钻石之间会产生刮擦损伤，所以请将钻石首饰单独存放。
+										</p>
+									</div>
+									<img src="../img/cpt12.jpg" style="width: 234px;height: 233px;margin: 0;" />
+								</div>	
+							</div>
+							<div class="question" id="question">
+								<div class="Title">
+									问：什么是钻石的"4C"？ 那个因素最重要？								
+								</div>
+								<p>答：4C是衡量钻石价值的重要指标，具体指切工（cut）、重量（carat）、净度（clarity）、颜色（color）。这其中，切工是最重要的，因为切工的好坏直接决定钻石是不是闪亮，可以说，切工给钻石缔造了第二次生命。</p>
+								<div class="Title">
+									问：什么是八心八箭？								
+								</div>
+								<p>答：八心八箭在钻石的切工上，代表一种极致的切割状态，在具有特定切割比例的钻石中看到的是一种光学现象，由钻石刻面和折射出的刻面倒影组成。八心八箭是丘比特切工的代表作，和经典比利时切工相比，丘比特切工对钻石毛胚要求很高，只有低台宽比和亭深比，并且对称性很好才能形成标准"八心八箭"现象。</p>
+								<div class="Title">
+									问：钻石是不是级别越高越好？							
+								</div>
+								<p>答：作为收藏投资来说，自然是级别越高越好，作为日常佩带，我们推荐有高性价比的钻石，这是明智的钻饰消费。</p>
+								<div class="Title">
+									问：钻石证书有哪些？								
+								</div>
+								<p>答：因为钻石鉴定分级的专业性，只有钻石界最专业最权威的鉴定机构才能以其最严谨、最一致和最公正的鉴定结果为钻石出具身份证明。戴欧妮提供的钻石珠宝饰品均由中国国家级鉴定机构检验鉴定，譬如国家宝玉石质量监督检验中心（简称国检），和国际权威鉴定机构如美国宝石学院（简称GIA），其严格检验出具的证书在全球都可通用。</p>
+								<div class="Title">
+									问：拿到钻石和证书后，如何复检？							
+								</div>
+								<p>答：首先，可登录各相关鉴定证书上的网址，输入信息查询饰品的鉴定情况，亦可携带钻石饰品就近到相关检验机构申请复检。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="cityshop">
+			<div class="w">
+				<div class="branch">
+					<div class="tiyanzhongxin l">体验中心</div>
+					<div class="city l">
+						<div class="l">北京</div>
+						<div class="l">深圳</div>
+						<div class="l">天津</div>
+						<div class="l">成都</div>
+						<div class="l">浙江</div>
+						<div class="l">江苏</div>
+						<div class="l">福建</div>
+						<div class="l">海南</div>
+						<div class="l">重庆</div>
+						<div class="l">湖南</div>
+						<div class="l">河北</div>
+						<div class="l">江西</div>
+					</div>
+				</div>
+				<div class="address">
+					<ul>
+						<li class="beijing">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">北京●朝阳区旗舰店 体验中心</a></p>
+								<p>北京市西城区新街口南大街61号</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:15117991700</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/beijing.jpg"/>
+							</div>
+						</li>
+						<li class="shenzhen">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">广东●深圳总部</a></p>
+								<p>广东省深圳市南山区创业路中兴工业城9栋601 咨询电话:4006578478</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/shenzhen.jpg"/>
+							</div>
+						</li>
+						<li class="tianjin">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">天津●天津分店 体验中心</a></p>
+								<p>天津市和平区南京路诚基中心3-2-3905</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:13212055648</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/tianjin.jpg"/>
+							</div>
+						</li>
+						<li class="chengdu">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">四川●成都锦江区春熙路分店 体验中心</a></p>
+								<p>成都市锦江区春熙路小科甲巷1号第一城A-9-12</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:18081059929</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/chengdu.jpg"/>
+							</div>
+						</li>
+						<li class="zhejiang">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">浙江●温州市旗舰店 体验中心</a></p>
+								<p>浙江省温州市人民中路环球大厦807室</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:13957766656</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/zhejiang.jpg"/>
+							</div>
+						</li>
+						<li class="jiangsu">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">江苏●南京南站分店 体验中心</a></p>
+								<p>江苏省南京雨花区明发商业广场4栋404室</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:13705150120</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/jiangsu.jpg"/>
+							</div>
+						</li>
+						<li class="fujian">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">福建●福州分店 体验中心</a></p>
+								<p>福州市仓山区金辉天鹅湾8号楼605店</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:13305016641</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/fujian.jpg"/>
+							</div>
+						</li>
+						<li class="hainan">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">海南●海口分店 体验中心</a></p>
+								<p>海南省海口市海秀路18号鑫源温泉大酒店20层</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:1333760086</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/hainan.jpg"/>
+							</div>
+						</li>
+						<li class="chongqing">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">重庆●沙坪坝分店 体验中心</a></p>
+								<p>重庆市沙坪坝三峡广场王府井B座16-4</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:13708393217</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/chongqin.jpg"/>
+							</div>
+						</li>
+						<li class="hunan">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">湖南●长沙旗舰店 体验中心</a></p>
+								<p>湖南省长沙市芙蓉区人民中路金口岸珠宝玉器城107-108号</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:15673138888</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/hunan.jpg"/>
+							</div>
+						</li>
+						<li class="hebei">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">河北●秦皇岛茂业分店 体验中心</a></p>
+								<p>河北省秦皇岛市海港区文化路139号茂业百货金都大厦15-1522</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:13833524801</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/hebei.jpg"/>
+							</div>
+						</li>
+						<li class="jiangxi">
+							<div class="map l">
+								<p class="p1"><a href="javascript:;">江西●南昌旗舰店 体验中心</a></p>
+								<p>江西省南昌市中山路地王广场写字楼8-H</p>
+								<p>周一至周日 9:30-20:00</p>
+								<p>咨询电话:18679167500</p>
+							</div>
+							<div class="pic l">
+								<img src="../img/jiangxi.jpg"/>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="service">
+			<div class="w">
+				<div class="top2"></div>
+				<div class="servicebottom">
+					<img src="../img/security.jpg" />
+				</div>
+			</div>
+		</div>
+		<div id="more">
+			<div class="w">
+				<ul>
+					<li class="buy l">
+						<div>
+							<span>购买支付</span>
+							<a href="javascript:;">新手教程</a>
+							<a href="javascript:;">订购流程</a>
+							<a href="javascript:;">支付常见问题</a>
+						</div>
+					</li>
+					<li class="send l">
+						<div>
+							<span>收货指南</span>
+							<a href="javascript:;">订单处理时间</a>
+							<a href="javascript:;">配送方法和收费</a>
+							<a href="javascript:;">防伪包装</a>
+						</div>
+					</li>
+					<li class="aftersale l">
+						<div>
+							<span>售后服务</span>
+							<a href="javascript:;">质量承诺</a>
+							<a href="javascript:;">购物协议</a>
+							<a href="javascript:;">售后服务</a>
+						</div>
+					</li>
+					<li class="vip l">
+						<div>
+							<span>会员中心</span>
+							<a href="javascript:;">如何成为会员</a>
+							<a href="javascript:;">积分规则</a>
+							<a href="javascript:;">优惠政策</a>
+						</div>
+					</li>
+					<li class="about l">
+						<div>
+							<span>关于戴欧妮</span>
+							<a href="javascript:;">戴欧妮介绍</a>
+							<a href="javascript:;">戴欧妮资质</a>
+							<a href="javascript:;">戴欧妮优势</a>
+						</div>
+					</li>
+					<li class="contact l">
+						<div>
+							<span>更多服务</span>
+							<a href="javascript:;">鉴定机构</a>
+							<a href="javascript:;">联系我们</a>
+							<a href="javascript:;">网站地图</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="w">
+				<div class="l">
+					<p>体验中心地址：新疆乌鲁木齐市北京南路556号小西沟京华杰座711室 联系电话：0991-3671906 联系人：崔先忠</p>
+					<p>Copyright @ 2007-2014 深圳市戴欧妮网络科技有限公司 ALL Rights Reserved 经营许可证编号：粤B2-20080371 粤ICP备11058956号-1</p>
+				</div>
+				<div class="r">
+					<p>全球24小时服务热线</p>
+					<p class="p1">4006-578-478</p>
+				</div>
+			</div>
+		</div>
+		<div id="guarantee">
+			<div class="w">
+				<img src="../img/footicon.gif" />
+			</div>
+		</div>
+<!---------------------悬浮导航栏---------------------------------------------->		
+		<ul class="floatdanghao">
+		<!-------------售前客服1---------------------------------------------->
+			<li class="beforesale">
+				<div class="icon"><img src="../img/sqkw.png"/></div>
+				<span>售前客服</span>
+				<div class="dialog" style>
+					<div class="title">
+						<img class="kefu" src="../img/kefu.jpg" />
+						<img class="close" src="../img/close.jpg" />
+						<div class="text">kefu03</div>
+					</div>
+					<div class="dialogbody">
+						<form>
+							<div class="name">
+								<span>*</span>姓名：<input type="text" placeholder="请填写您的真实姓名" />
+							</div><br />
+							<div class="phone">
+								<span>*</span>电话：<input type="text" placeholder="请填写固定或移动电话" />
+							</div><br />
+							<div class="email">
+							<span> </span>邮箱：<input type="text" placeholder="请填写您的邮箱地址" />
+							</div><br />
+							<div class="message">
+							<span>*</span><span style="color: #3e3e3e;width: 38px;height: 26px;">留言：</span><textarea style="color: #a9a9a9;">请将您的问题详细写下，我们会尽快与您联系</textarea>
+							</div><br />
+							<input type="button" value="提交" style="width: 68px;height: 34px;margin-left: 156px;" />
+						</form>
+					</div>
+				</div>
+			</li>
+		<!-------------售前客服2---------------------------------------------->
+			<li class="beforesale">
+				<div class="icon"><img src="../img/sqkw.png"/></div>
+				<span>售前客服</span>
+				<div class="dialog">
+					<div class="title">
+						<img class="kefu" src="../img/kefu2.jpg" />
+						<img class="close" src="../img/close.jpg" />
+						<div class="text">dionlysegfe_888</div>
+					</div>
+					<div class="dialogbody">
+						<form>
+							<div class="name">
+								<span>*</span>姓名：<input type="text" placeholder="请填写您的真实姓名" />
+							</div><br />
+							<div class="phone">
+								<span>*</span>电话：<input type="text" placeholder="请填写固定或移动电话" />
+							</div><br />
+							<div class="email">
+							<span> </span>邮箱：<input type="text" placeholder="请填写您的邮箱地址" />
+							</div><br />
+							<div class="message">
+							<span>*</span><span style="color: #3e3e3e;width: 38px;height: 26px;">留言：</span><textarea style="color: #a9a9a9;">请将您的问题详细写下，我们会尽快与您联系</textarea>
+							</div><br />
+							<input type="button" value="提交" style="width: 68px;height: 34px;margin-left: 156px;" />
+						</form>
+					</div>
+				</div>
+			</li>
+		<!-------------售后咨询---------------------------------------------->			
+			<li class="consult">
+				<div class="icon"><img src="../img/shzx.png"/></div>
+				<span>售后咨询</span>
+				<div class="dialog">
+					<div class="title">
+						<img class="kefu" src="../img/kefu3.jpg" />
+						<img class="close" src="../img/close.jpg" />
+						<div class="text">戴欧妮客服</div>
+					</div>
+					<div class="dialogbody">
+						<form>
+							<div class="name">
+								<span>*</span>姓名：<input type="text" placeholder="请填写您的真实姓名" />
+							</div><br />
+							<div class="phone">
+								<span>*</span>电话：<input type="text" placeholder="请填写固定或移动电话" />
+							</div><br />
+							<div class="email">
+							<span> </span>邮箱：<input type="text" placeholder="请填写您的邮箱地址" />
+							</div><br />
+							<div class="message">
+							<span>*</span><span style="color: #3e3e3e;width: 38px;height: 26px;">留言：</span><textarea style="color: #a9a9a9;">请将您的问题详细写下，我们会尽快与您联系</textarea>
+							</div><br />
+							<input type="button" value="提交" style="width: 68px;height: 34px;margin-left: 156px;" />
+						</form>
+					</div>
+				</div>
+			</li>
+		<!-------------加盟咨询---------------------------------------------->			
+			<li class="joinconsult">
+				<div class="icon"><img src="../img/jmzx.png"/></div>
+				<span>加盟咨询</span>
+				<div class="dialog">
+					<div class="title">
+						<img class="kefu" src="../img/kefu4.jpg" />
+						<img class="close" src="../img/close.jpg" />
+						<div class="text">shanghu02</div>
+					</div>
+					<div class="dialogbody">
+						<form>
+							<div class="name">
+								<span>*</span>姓名：<input type="text" placeholder="请填写您的真实姓名" />
+							</div><br />
+							<div class="phone">
+								<span>*</span>电话：<input type="text" placeholder="请填写固定或移动电话" />
+							</div><br />
+							<div class="email">
+							<span> </span>邮箱：<input type="text" placeholder="请填写您的邮箱地址" />
+							</div><br />
+							<div class="message">
+							<span>*</span><span style="color: #3e3e3e;width: 38px;height: 26px;">留言：</span><textarea style="color: #a9a9a9;">请将您的问题详细写下，我们会尽快与您联系</textarea>
+							</div><br />
+							<input type="button" value="提交" style="width: 68px;height: 34px;margin-left: 156px;" />
+						</form>
+					</div>
+				</div>
+			</li>
+		<!-------------二维码---------------------------------------------->			
+			<li class="erweima">
+				<div class="icon"><img src="../img/ewm.png"/></div>
+				<span>二维码</span>
+				<img class="vm" src="../img/vm.png"/>
+			</li>
+		<!-------------返回顶部--------------------------------------------->			
+			<li class="returntop">
+				<div class="icon"><img src="../img/top.png"/></div>
+				<span>返回顶部</span>
+			</li>
+		</ul> 
+	</body>
+</html>

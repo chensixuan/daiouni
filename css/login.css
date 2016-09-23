@@ -1,0 +1,36 @@
+/*------------------------------------content--------------------------------*/
+#content{height: 588px;width:1263px;background: url(../img/login.jpg) no-repeat center;overflow: hidden;}
+#content .login{width: 402px;height: 376px;margin-left: 703px;margin-top: 101px;}
+#content .login .registerenter{width:72px ;height: 26px;padding-left: 330px;padding-top: 15px;}
+#content .login .registerenter a{color: #db3962;}
+#content .loginbody{width: 402px;height:475px ;}
+#content .loginbody .yanzheng1{width: 238px;height: 27px;padding-left: 144px;line-height: 30px;}
+#content .loginbody .shoujihaoma{width: 125px;height: 28px;padding-left:148px ;margin-top: 34px;}
+#content .loginbody .shoujihaoma input{width: 150px;height: 30px;border: 0;color:#9b9b9b;}
+#content .loginbody .yanzheng2{width: 238px;height: 27px;padding-left: 134px;line-height: 27px;}
+#content .loginbody .denglumima{width: 190px;height: 28px;padding-left:147px;}
+#content .loginbody .denglumima input{width: 150px;height: 30px;border: 0;color: #9b9b9b;}
+#content .loginbody .agree{width: 276px;height: 18px;padding-left:66px;}
+#content .loginbody .agree a:hover{color: #db3962;}
+#content .loginbody .agree a{margin-left:140px;}                                                                                                          
+#content .loginbody .space1{width: 338px;height: 7px;}
+#content .loginbody input.denglu{width: 278px;height: 33px;background: url(../img/btn-bg.jpg) 1px 1px;border: 1px solid #cd383c;margin-left: 64px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;cursor: pointer;}
+#content .loginbody .space2{width: 338px;height: 70px;}
+#content .loginbody .disanfang{width: 366px;height: 50px;margin-left: 35px;overflow: hidden;}
+#content .loginbody .disanfang a.qqicon{margin-top: 12px;display: block;width: 63px;height: 24px;}
+#content .loginbody .disanfang a.wb{display: block;width: 63px;height: 50px;margin-left: 70px;}
+#content .loginbody .disanfang a.zfb{display: block;width: 63px;height: 50px;margin-left: 55px;}
+/*------------------------------------service--------------------------------*/
+#service{height: 85px;}
+#service .w .servicebottom{height: 85px;}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+/*-----------------------------------content--------------------------------*/
+#content {width: 100%;}
+#content .one{display: block;height: 424px;background: url(../img/huayiren_01.jpg) no-repeat center;}
+#content .two{display: block;height: 695px;background: url(../img/huayiren_02.jpg) no-repeat center;}
+#content .three{display: block;height: 758px;background: url(../img/huayiren_03.jpg) no-repeat center;}
+#content .four{display: block;height: 801px;background: url(../img/huayiren_04.jpg) no-repeat center;}
+#content .five{display: block;height: 132px;background: url(../img/huayiren_05.jpg) no-repeat center;}
+
+#content .shoufengqin{background: #b7b0a8;height: 300px;overflow: hidden;}
+#content ul{width: 1000px;height: 260px;margin: 20px auto;}
+#content .shoufengqin ul li{width: 170px;height: 260px;float: left;}
+#content .shoufengqin ul li.zuan1{background:url(../img/zuan1.jpg) no-repeat center 0;}
+#content .shoufengqin ul li.zuan2{background:url(../img/zuan2.jpg) no-repeat center 0;}
+#content .shoufengqin ul li.zuan3{background:url(../img/zuan3.jpg) no-repeat center 0;}
+#content .shoufengqin ul li.zuan4{background:url(../img/zuan4.jpg) no-repeat center 0;}
+#content .shoufengqin ul li.zuan5{background:url(../img/zuan5.jpg) no-repeat center 0;}
+
+
+
+/*-----------------------------------cityshop--------------------------------*/
+#cityshop{/*background: plum*/}
+#cityshop .w{height: 281px;}
+#cityshop .w .branch{height: 53px;border-bottom: 1px solid #8a8a8a;}
+#cityshop .w .branch .tiyanzhongxin{width:387px;height:25px;font-size: 18px;font-weight: bold;padding-top: 28px;padding-left: 15px;}
+#cityshop .w .branch .city{width: 778px;height: 23px;padding-top: 30px;}
+#cityshop .w .branch .city div{width:25px;height:23px;padding-left: 20px;padding-right: 20px;background:0;}
+
+#cityshop .w .address ul{width:1178px;height:226px;border-left: 1px solid #6b6b6b;border-right: 1px solid #6b6b6b;border-top: 1px solid #4c4c4c;position: relative;}
+#cityshop .w .address ul li{width: 1180px;height: 225px;position: absolute;}
+#cityshop .w .address ul li .map{width: 680px;height: 225px;border-top: 1px solid #838383;background: url(../img/map.png) no-repeat;}
+#cityshop .w .address ul li .map p{margin-bottom: 20px;text-align: center;}
+#cityshop .w .address ul li .map p.p1{font-size: 20px;font-weight: bold;margin: 40px 0;}
+#cityshop .w .address ul li .pic{width: 500px;height: 225px;border-top: 1px solid #838383;}
+
+
+/*------------------------------------service--------------------------------*/
+#service{height: 115px;}
+#service .w .top2{height:30px;background: url(../img/linebg.jpg) repeat-x;}
+#service .w .servicebottom{height: 85px;}

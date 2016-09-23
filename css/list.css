@@ -1,0 +1,102 @@
+/*-----------------------------------content--------------------------------*/
+#content{height: 2640px;}
+#content .banner{background: #f3f3f3;}
+#content .banner img{display: block;margin: 0 auto;}
+#content .w{height: 2440px;}
+#content .w .title{height: 50px;line-height: 50px;margin-left: 15px;}
+#content .w .detail{height: 2390px;}
+#content .w .detail .zuo{width: 242px;height:auto;margin-right:18px;}
+/*----------------------------------商品分类-----------------------------------*/
+#content .w .detail .zuo .sort{width: 240px;height:auto;border: 1px solid #ccc;margin-bottom: 20px;overflow: hidden;}
+#content .w .detail .zuo .sort .onetitle{width: 240px;height: 35px;line-height:35px;text-indent:2em;font-weight:bold;border-bottom: 1px solid #ccc;background: url(../img/title-bg.jpg);}
+#content .w .detail .zuo .sort .onecontent{width: 220px;height: auto;padding-left:19px ;margin-top: 16px;}
+	/*------------------------定价产品-------------------------*/
+#content .w .detail .zuo .sort .onecontent .dingjiachanpin .head{width: 200px;height: 24px;line-height: 24px;}
+#content .w .detail .zuo .sort .onecontent .dingjiachanpin .head a.ww{font-weight: bold;}
+#content .w .detail .zuo .sort .onecontent .dingjiachanpin .head a.ww:hover{color: #db3962;}
+#content .w .detail .zuo .sort .onecontent .dingjiachanpin .head a.open{display:block;width: 15px;height: 23px;background: url(../img/hidebg.jpg) no-repeat 0 6px;}
+
+#content .w .detail .zuo .sort .onecontent .dingjiachanpin .list{width: 200px;height: 130px;border-top: 1px dashed #ccc;border-bottom: 1px dashed #ccc;background: #fafafa;display: block;margin-bottom: 10px;}
+#content .w .detail .zuo .sort .onecontent .dingjiachanpin .list ul li{width: 100px;height: 32px;line-height: 32px;text-align: center;}
+	/*------------------------钻戒定制-------------------------*/
+#content .w .detail .zuo .sort .onecontent .zuanjiedingzhi .head{width: 200px;height: 24px;line-height: 24px;}
+#content .w .detail .zuo .sort .onecontent .zuanjiedingzhi .head a.ww{font-weight: bold;}
+#content .w .detail .zuo .sort .onecontent .zuanjiedingzhi .head a.ww:hover{color: #db3962;}
+#content .w .detail .zuo .sort .onecontent .zuanjiedingzhi .head a.open{display:block;width: 15px;height: 23px;background: url(../img/showbg.jpg) no-repeat 0 6px;}
+#content .w .detail .zuo .sort .onecontent .zuanjiedingzhi .list{width: 200px;height: 100px;border-top: 1px dashed #ccc;border-bottom: 1px dashed #ccc;background: #fafafa;display: none;margin-bottom: 10px;}
+#content .w .detail .zuo .sort .onecontent .zuanjiedingzhi .list ul li{width: 100px;height: 32px;line-height: 32px;text-align: center;}
+	/*------------------------裸钻-------------------------*/
+#content .w .detail .zuo .sort .onecontent .luozuan .head{width: 200px;height: 24px;line-height: 24px;}
+#content .w .detail .zuo .sort .onecontent .luozuan .head a.ww{font-weight: bold;}
+#content .w .detail .zuo .sort .onecontent .luozuan .head a.ww:hover{color: #db3962;}
+#content .w .detail .zuo .sort .onecontent .luozuan .head a.open{display:block;width: 15px;height: 23px;background: url(../img/showbg.jpg) no-repeat 0 6px;}
+#content .w .detail .zuo .sort .onecontent .luozuan .list{width: 200px;height: 100px;border-top: 1px dashed #ccc;border-bottom: 1px dashed #ccc;background: #fafafa;display: none;margin-bottom: 10px;}
+#content .w .detail .zuo .sort .onecontent .luozuan .list ul li{width: 100px;height: 32px;line-height: 32px;text-align: center;}
+	/*------------------------黄金-------------------------*/
+#content .w .detail .zuo .sort .onecontent .huangjin .head{width: 200px;height: 24px;line-height: 24px;}
+#content .w .detail .zuo .sort .onecontent .huangjin .head a.ww{font-weight: bold;}
+#content .w .detail .zuo .sort .onecontent .huangjin .head a.ww:hover{color: #db3962;}
+#content .w .detail .zuo .sort .onecontent .huangjin .head a.open{display:block;width: 15px;height: 23px;background: url(../img/showbg.jpg) no-repeat 0 6px;}
+#content .w .detail .zuo .sort .onecontent .huangjin .list{width: 200px;height: 40px;border-top: 1px dashed #ccc;border-bottom: 1px dashed #ccc;background: #fafafa;display: none;margin-bottom: 10px;}
+#content .w .detail .zuo .sort .onecontent .huangjin .list ul li{width: 100px;height: 32px;line-height: 32px;text-align: center;}
+/*----------------------------------热门推荐-----------------------------------*/
+#content .w .detail .zuo .hot{width:240px;height:610px;border: 1px solid #ccc;}
+#content .w .detail .zuo .hot .twotitle{width: 240px;height: 35px;line-height:35px;text-indent:2em;font-weight:bold;border-bottom: 1px solid #ccc;background: url(../img/title-bg.jpg);}
+#content .w .detail .zuo .hotbody{height: 556px;width: 221px;padding-top: 19px;padding-left: 19px;}
+#content .w .detail .zuo .hotbody .yonghengzhixin{height: 275px;}
+#content .w .detail .zuo .hotbody .yonghengzhixin p{height: 35px;line-height: 35px;text-indent: 20px;}
+#content .w .detail .zuo .hotbody .huamou{height: 280px;}
+#content .w .detail .zuo .hotbody .huamou p{height: 35px;line-height: 35px;text-indent: 20px;}
+
+#content .w .detail .you{width: 920px;height: 2395px;}
+#content .w .detail .you .select{width: 920px;height: 183px;border: 1px solid #ccc;background: #f8f8f8;}
+#content .w .detail .you .select .leibie{height: 50px;border-bottom: 1px dashed #ccc;margin:0 20px;}
+#content .w .detail .you .select .leibie li{height:50px;line-height:50px;}
+#content .w .detail .you .select li a{padding:0 10px;border-right: 1px solid #ccc;}
+#content .w .detail .you .select li.last a{border: 0;}
+#content .w .detail .you .select li.first span{padding:0 20px;border-right: 1px solid #ccc;}
+#content .w .detail .you .select .leixing{height: 40px;border-bottom: 1px dashed #ccc;margin:0 20px;}
+#content .w .detail .you .select .leixing li{height:40px;line-height:40px;}
+#content .w .detail .you .select .caizhi{height: 40px;border-bottom: 1px dashed #ccc;margin:0 20px;}
+#content .w .detail .you .select .caizhi li{height:40px;line-height:40px;}
+#content .w .detail .you .select .jiage{height: 50px;margin:0 20px;}
+#content .w .detail .you .select .jiage li{height:50px;line-height:50px;}
+
+#content .w .detail .you .page{height: 57px;line-height: 57px;margin-left: 300px;}
+#content .w .detail .you .page .a{display: block;width: 23px;height: 27px;line-height:27px;border: 1px solid #d2d2d2;background: #d8d8d8;margin-top: 10px;text-align: center;margin-right: 15px;margin-left:25px;}
+#content .w .detail .you .page a{display: block;width: 23px;height: 27px;line-height:27px;border: 1px solid #d2d2d2;background: #eee;margin-top: 10px;text-align: center;margin-right: 15px;}
+#content .w .detail .you .page a.last{display: block;width: 40px;height: 27px;line-height:27px;border: 1px solid #d2d2d2;background: #eee;margin-top: 10px;text-align: center;}
+
+#content .w .detail .you .informationtitle{width: 918px;height: 34px;border: 1px solid #ccc;background: url(../img/title-bg.jpg);margin-bottom: 20px;}
+#content .w .detail .you .informationtitle div{width: 100px;height:35px;border-right: 1px solid #ccc;}
+#content .w .detail .you .informationtitle div a{display:block;width: 100px;height:35px;line-height: 35px;text-align: center;}
+#content .w .detail .you .informationtitle div a:hover{color: #3E3E3E;}
+#content .w .detail .you .productlist{width: 921px;height:2036px;border-left: 1px solid #ccc;border-top: 1px solid #ccc;}
+#content .w .detail .you .productlist dl{float: left;width: 306px;height:270px;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;padding-top: 20px;}
+#content .w .detail .you .productlist dl dt{width: 160px;height: 200px;padding-left: 50px;}
+#content .w .detail .you .productlist dl dd{height: 35px;line-height: 35px;text-align: center;}
+#content .w .detail .you .productlist dl dd.price{background: #f8f8f8;}
+#content .w .detail .you .productlist dl dd .span1{margin-right: 50px;text-decoration: line-through;}
+#content .w .detail .you .productlist dl dd .span2{color: #db3962;font-size: 14px;}
+
+
+/*-----------------------------------cityshop--------------------------------*/
+#cityshop{/*background: plum*/}
+#cityshop .w{height: 281px;}
+#cityshop .w .branch{height: 53px;border-bottom: 1px solid #8a8a8a;}
+#cityshop .w .branch .tiyanzhongxin{width:387px;height:25px;font-size: 18px;font-weight: bold;padding-top: 28px;padding-left: 15px;}
+#cityshop .w .branch .city{width: 778px;height: 23px;padding-top: 30px;}
+#cityshop .w .branch .city div{width:25px;height:23px;padding-left: 20px;padding-right: 20px;background:0;}
+
+#cityshop .w .address ul{width:1178px;height:226px;border-left: 1px solid #6b6b6b;border-right: 1px solid #6b6b6b;border-top: 1px solid #4c4c4c;position: relative;}
+#cityshop .w .address ul li{width: 1180px;height: 225px;position: absolute;}
+#cityshop .w .address ul li .map{width: 680px;height: 225px;border-top: 1px solid #838383;background: url(../img/map.png) no-repeat;}
+#cityshop .w .address ul li .map p{margin-bottom: 20px;text-align: center;}
+#cityshop .w .address ul li .map p.p1{font-size: 20px;font-weight: bold;margin: 40px 0;}
+#cityshop .w .address ul li .pic{width: 500px;height: 225px;border-top: 1px solid #838383;}
+
+
+/*------------------------------------service--------------------------------*/
+#service{height: 115px;}
+#service .w .top2{height:30px;background: url(../img/linebg.jpg) repeat-x;}
+#service .w .servicebottom{height: 85px;}

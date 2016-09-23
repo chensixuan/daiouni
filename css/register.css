@@ -1,0 +1,48 @@
+/*------------------------------------content--------------------------------*/
+#content{height: 588px;width:1263px;background: url(../img/reg.jpg) no-repeat center;overflow: hidden;}
+#content .register{width: 402px;height: 516px;margin-left: 703px;margin-top: 52px;}
+#content .register .loginenter{width:72px ;height: 26px;padding-left: 330px;padding-top: 15px;}
+#content .register .loginenter a{color: #db3962;}
+#content .registerbody{width: 402px;height:475px ;}
+#content .registerbody .yanzheng1{width: 338px;height: 27px;padding-left: 144px;line-height: 30px;}
+#content .registerbody .yanzheng2{width: 338px;height: 27px;padding-left: 144px;line-height: 30px;}
+#content .registerbody .yanzheng3{width: 338px;height: 27px;padding-left: 144px;line-height: 29px;}
+#content .registerbody .yanzheng4{width: 338px;height: 27px;padding-left: 144px;line-height: 30px;}
+#content .registerbody .yanzheng5{width: 338px;height: 27px;padding-left: 144px;line-height: 16px;}
+#content .registerbody .space{width: 338px;height: 27px;padding-left: 144px;line-height: 30px;}
+#content .registerbody .shoujihaoma{width: 125px;height: 28px;padding-left:148px ;margin-top: 34px;}
+#content .registerbody .shoujihaoma input{width: 150px;height: 30px;border: 0;color:#9b9b9b;}
+#content .registerbody .yanzhengma{width: 210px;height: 28px;padding-left:147px;}
+#content .registerbody .yanzhengma input{width: 88px;height: 30px;border: 0;color:#9b9b9b;}
+#content .registerbody .yanzhengma img{margin-left: 6px;}
+#content .registerbody .yanzhengma a{display:block;width: 46px;height: 34px;cursor: pointer;}
+#content .registerbody .duanxinyanzheng{width: 190px;height: 28px;padding-left:147px;}
+#content .registerbody .duanxinyanzheng input.l{width: 78px;height: 28px;border:0 ;color:#9b9b9b;}
+#content .registerbody .duanxinyanzheng input.r{width: 88px;height: 30px;border: 0;cursor: pointer;background: 0;}
+#content .registerbody .mima{width: 190px;height: 28px;padding-left:147px;}
+#content .registerbody .mima input{width: 150px;height: 30px;border: 0;color:#9b9b9b;}
+#content .registerbody .queren{width: 190px;height: 35px;padding-left:147px;}
+#content .registerbody .queren input{width: 150px;height: 31px;border:0 ;color:#9b9b9b;}
+#content .registerbody .agree{width: 260px;height: 18px;padding-left:66px;}
+#content .registerbody .agree a:hover{color: #db3962;}
+#content .registerbody .space1{width: 338px;height: 7px;}
+#content .registerbody input.zhuce{width: 278px;height: 33px;background: url(../img/btn-bg.jpg) 1px 1px;border: 1px solid #cd383c;margin-left: 64px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;cursor: pointer;}
+#content .registerbody .space2{width: 338px;height: 46px;}
+#content .registerbody .disanfang{width: 366px;height: 50px;margin-left: 35px;overflow: hidden;}
+#content .registerbody .disanfang a.qqicon{margin-top: 12px;display: block;width: 63px;height: 24px;}
+#content .registerbody .disanfang a.wb{display: block;width: 63px;height: 50px;margin-left: 70px;}
+#content .registerbody .disanfang a.zfb{display: block;width: 63px;height: 50px;margin-left: 55px;}
+/*------------------------------------service--------------------------------*/
+#service{height: 85px;}
+#service .w .servicebottom{height: 85px;}
+
+
+
+
+
+
+
+
+
+
+

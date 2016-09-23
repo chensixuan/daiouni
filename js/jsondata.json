@@ -1,0 +1,25 @@
+{
+	"data":[
+		{"id":1,"img":"../img2/1.jpg","name":"繁花绕","price1":"6573.00","price2":"5258.00","chicun":18,"discount":"1315.00","img1":"../img/FR-9676-1.jpg","img2":"../img/FR-9676-2.jpg","img2":"../img/FR-9676-2.jpg","img3":"../img/FR-9676-3.jpg","img4":"../img/FR-9676-4.jpg","img5":"../img/FR-9676-5.jpg","img6":"../img/FR-9676-6.jpg","img7":"../img/FR-9676-7.jpg","img8":"../img/FR-9676-8.jpg","img9":"../img/FR-9676-9.jpg"},
+		{"id":2,"img":"../img2/2.jpg","name":"三生戒指","price1":"2044.00","price2":"1226.00","chicun":19,"discount":"818.00","img1":"../img/1010.jpg","img2":"../img/1111.jpg","img3":"../img/1212.jpg","img4":"../img/1313.jpg","img5":"../img/1414.jpg","img6":"../img/1515.jpg","img7":"../img/1616.jpg","img8":"../img/1717.jpg","img9":"../img/1818.jpg"},
+		{"id":3,"img":"../img2/3.jpg","name":"微爱耳钉","price1":"5746.00","price2":"3024.00","chicun":21,"discount":"2722.00","img1":"../img/1010.jpg","img2":"../img/1111.jpg","img3":"../img/1212.jpg","img4":"../img/1313.jpg","img5":"../img/1414.jpg","img6":"../img/1515.jpg","img7":"../img/1616.jpg","img8":"../img/1717.jpg","img9":"../img/1818.jpg"},
+		{"id":4,"img":"../img2/4.jpg","name":"百搭之美","price1":"7653.00","price2":"4028.00","chicun":20,"discount":"3625.00","img1":"../img/1010.jpg","img2":"../img/1111.jpg","img3":"../img/1212.jpg","img4":"../img/1313.jpg","img5":"../img/1414.jpg","img6":"../img/1515.jpg","img7":"../img/1616.jpg","img8":"../img/1717.jpg","img9":"../img/1818.jpg"},
+		{"id":5,"img":"../img2/5.jpg","name":"花季女人","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":6,"img":"../img2/6.jpg","name":"花之魅力","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":7,"img":"../img2/7.jpg","name":"简约挚爱","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":8,"img":"../img2/8.jpg","name":"倾心恋人","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":9,"img":"../img2/9.jpg","name":"情圈一线","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":10,"img":"../img2/10.jpg","name":"顺势而动","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":11,"img":"../img2/11.jpg","name":"五彩缤纷","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":12,"img":"../img2/12.jpg","name":"小清新","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":13,"img":"../img2/13.jpg","name":"心只有你","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":14,"img":"../img2/14.jpg","name":"天使之约","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":15,"img":"../img2/15.jpg","name":"狐绕缘","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":16,"img":"../img2/16.jpg","name":"樱桃眷","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":17,"img":"../img2/17.jpg","name":"花开","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":18,"img":"../img2/18.jpg","name":"狐心","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":19,"img":"../img2/19.jpg","name":"花不语","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":20,"img":"../img2/20.jpg","name":"初见","price1":"¥2044.00","price2":"¥1226.00"},
+		{"id":21,"img":"../img2/21.jpg","name":"暖心","price1":"¥2044.00","price2":"¥1226.00"}
+	]
+}
